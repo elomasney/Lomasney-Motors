@@ -1,6 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500,600,700,800|Monserrat:100,200,300,400,500,600,700,800');
 
+* {
+    margin: 0;
+    padding:0;
+}
+/*-----Colors-----*/
 
+.bg-nav-color {
+    background: #ece7de;
+}
+/*--------Navbar-----*/
+
+.navbar-brand {
+    height: 60px;
+}
+
+.navbar {
+    font-size: 1.25em;
+    font-family: "Roboto",sans-serif;
+    font-weight: 900;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+    z-index: 1;
+}
+
+.navbar h1 {
+    color: #113822;
+    font-family: "Roboto",sans-serif;
+    font-size: 1.25em;
+    font-weight:800;
+    padding-top:10px;
+    padding-bottom: 10px;
+    letter-spacing: .1rem;
+}
+
+.navbar h1 span {
+    font-weight: 700;
+    
+}
+
+.nav-item {
+    padding: .5rem;
+}
+
+#navbarNav.collapse.navbar-collapse{
+    color: #7e9b86;
+    display: inline;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #7e9b86;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #113822;
+
+}
+
+.navbar-toggler.navbar-toggler-icon {
+    background-color: #113822;
+}
+
+
+/*------Footer----*/
 
 
 
