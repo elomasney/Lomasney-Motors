@@ -3,11 +3,78 @@
 * {
     margin: 0;
     padding:0;
+    border: 0;
 }
+
+.callout-container {
+    height: 100vh;
+    background: url('../images/car-image.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Jumbotron */
+
+.jumbotron-container{
+    
+}
+
+.promise-container {
+
+
+}
+
+.about-container{
+
+}
+
+.service-conatiner{
+
+}
+
+.review-container{
+
+}
+
+.contact-container{
+
+
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Roboto",sans-serif;
+    font-weight: 800;
+    font-size: .9em;
+    color: #204c31;
+    padding-top: 10px;
+}
+
+
+
 /*-----Colors-----*/
 
 .bg-nav-color {
-    background: #ece7de;
+    background: #fafafa;
 }
 /*--------Navbar-----*/
 
@@ -24,7 +91,7 @@
 }
 
 .navbar h1 {
-    color: #113822;
+    color: #204c31;
     font-family: "Roboto",sans-serif;
     font-size: 1.25em;
     font-weight:800;
@@ -52,18 +119,75 @@
 }
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #113822;
+    color: #204c31;
 
 }
 
 .navbar-toggler.navbar-toggler-icon {
-    background-color: #113822;
+    background-color: #2014c31;
 }
 
 
 /*------Footer----*/
 
+footer {
+    background-color: #9db2a0;
+    color: #204c31;
+    min-height:50px;
+    bottom: 0;
+    box-shadow: 0 -.5rem .5em rgba(0, 0, 0, .2);
+    z-index: 1;
+    position: fixed;
+    
 
+}
 
+.general-sub i {
+    font-size: 1.5em;
+    font-weight:800;
+    color: #204c31;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
+.copyright-text {
+    color: #204c31;
+    font-size: 1em;
+    font-weight: 700;
+    
+}
+
+.list-inline {
+
+    padding-top:10px;
+    display: inline-flex;
+}
+
+.contact-links li a i {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #204c31;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.contact-links li a i:hover {
+    background: #7e9b86;
+}
+
+#footer-details {
+    padding:10px;
+    
+}
 
